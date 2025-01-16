@@ -59,6 +59,8 @@ groupColors <-c( "#1d4220",
 
 
 
+
+
 #make chord diagram
 chord<-chorddiag(data = matrix_df,
                  type = "bipartite",
@@ -67,7 +69,7 @@ chord<-chorddiag(data = matrix_df,
                  groupPadding = 3,
                  groupnameFontsize = 11 ,
                  showTicks = FALSE,
-                 margin=150,
+                 margin=215,
                  tooltipGroupConnector = "    &#x25B6;    ",
                  chordedgeColor = "#363533"
 )
