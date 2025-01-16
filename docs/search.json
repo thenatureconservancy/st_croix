@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "present.html",
+    "href": "present.html",
+    "title": "Present",
+    "section": "",
+    "text": "LANDFIRE’s Existing Vegetation Type, Cover and Height datasets describe vegetation conditions.\nRead more about LANDFIRE Vegetation Products"
+  },
+  {
+    "objectID": "present.html#most-prevalent-existing-vegetation-types",
+    "href": "present.html#most-prevalent-existing-vegetation-types",
+    "title": "Present",
+    "section": "Most Prevalent Existing Vegetation Types",
+    "text": "Most Prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#existing-vegetation-cover",
+    "href": "present.html#existing-vegetation-cover",
+    "title": "Present",
+    "section": "Existing Vegetation Cover",
+    "text": "Existing Vegetation Cover"
+  },
+  {
+    "objectID": "present.html#existing-vegetation-height",
+    "href": "present.html#existing-vegetation-height",
+    "title": "Present",
+    "section": "Existing Vegetation Height",
+    "text": "Existing Vegetation Height"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "St. Croix State Park LANDFIRE Demo",
+    "section": "",
+    "text": "These LANDFIRE-Powered Landscape Assessments allow users to start exploring trends, landscape conversion and natural resource management options."
+  },
+  {
+    "objectID": "index.html#goals-of-this-demonstration",
+    "href": "index.html#goals-of-this-demonstration",
+    "title": "St. Croix State Park LANDFIRE Demo",
+    "section": "Goals of this demonstration",
+    "text": "Goals of this demonstration\nWe will use LANDFIRE products to:\n\nCharacterize and map past and present ecosystem conditions.\nExplore historical disturbance patterns.\nSummarize patterns of change and management opportunities.\n\nThe following charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis.\nThis demonstration will:\n\nProvide context for the past and present ecosystem conditions of the Ottawa National Forest.\nDemonstrate the power of data visualization to explore ecological patterns and functions using LANDFIRE products.\nFacilitate an understanding of historical and current conditions on a regional scale."
+  },
+  {
+    "objectID": "index.html#location-of-this-assessment",
+    "href": "index.html#location-of-this-assessment",
+    "title": "St. Croix State Park LANDFIRE Demo",
+    "section": "Location of this assessment",
+    "text": "Location of this assessment"
+  },
+  {
+    "objectID": "index.html#how-to-use-this-web-report",
+    "href": "index.html#how-to-use-this-web-report",
+    "title": "St. Croix State Park LANDFIRE Demo",
+    "section": "How to use this web report",
+    "text": "How to use this web report\n\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty.\nReview is ongoing.\nTo share this web app, simply share the hyperlink.\nToggle between dark and light display of this site in the upper right corner of the page.\nLearn more about LANDFIRE and The Nature Conservancy here."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this Project",
+    "section": "",
+    "text": "LANDFIRE (Landscape Fire and Resource Management Planning Tools) is a shared program between the U.S. Department of Agriculture Forest Service Fire and Aviation branch and the U.S. Department of the Interior. LANDFIRE provides 25+ national landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations. Included in the product suite are current and historic conditions including ecosystem dynamic models that can be used for conservation, fire planning, and landscape management decisions.\nThe Nature Conservancy (TNC) is a Major Partner in the LANDFIRE Program supported by a cooperative agreement through USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE and the user community by:\n\nHelping users understand the strengths, weaknesses, and appropriate uses of LANDFIRE products.\nLocating, obtaining, and using geospatial data, tools, and models for fire and natural resource management, planning, and implementation.\nIdentifying and comparing management priorities, evaluating threats to ecosystems, and exploring outcomes under alternative management scenarios.\n\n\nTNC’s LANDFIRE Team is advancing conservation outcomes through collaborative ecosystem science by supporting LANDFIRE users as they locate, obtain and apply the diverse suite of LANDFIRE products and data.\n\nCreated by TNC Ecologist, Randy Swaty, this preliminary landscape assessment leverages LANDFIRE’s unique geospatial products to advance beneficial outcomes for the wildland fire and natural resource communities. The central data in each project are created and managed by the cooperative inter-agency/inter-organizational LANDFIRE program.\nThese charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis. All maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty.\nSubstantial code contributions for GIS data processing by Myles Walimaa."
+  },
+  {
+    "objectID": "about.html#landfire-the-nature-conservancy",
+    "href": "about.html#landfire-the-nature-conservancy",
+    "title": "About this Project",
+    "section": "",
+    "text": "LANDFIRE (Landscape Fire and Resource Management Planning Tools) is a shared program between the U.S. Department of Agriculture Forest Service Fire and Aviation branch and the U.S. Department of the Interior. LANDFIRE provides 25+ national landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations. Included in the product suite are current and historic conditions including ecosystem dynamic models that can be used for conservation, fire planning, and landscape management decisions.\nThe Nature Conservancy (TNC) is a Major Partner in the LANDFIRE Program supported by a cooperative agreement through USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE and the user community by:\n\nHelping users understand the strengths, weaknesses, and appropriate uses of LANDFIRE products.\nLocating, obtaining, and using geospatial data, tools, and models for fire and natural resource management, planning, and implementation.\nIdentifying and comparing management priorities, evaluating threats to ecosystems, and exploring outcomes under alternative management scenarios.\n\n\nTNC’s LANDFIRE Team is advancing conservation outcomes through collaborative ecosystem science by supporting LANDFIRE users as they locate, obtain and apply the diverse suite of LANDFIRE products and data.\n\nCreated by TNC Ecologist, Randy Swaty, this preliminary landscape assessment leverages LANDFIRE’s unique geospatial products to advance beneficial outcomes for the wildland fire and natural resource communities. The central data in each project are created and managed by the cooperative inter-agency/inter-organizational LANDFIRE program.\nThese charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis. All maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty.\nSubstantial code contributions for GIS data processing by Myles Walimaa."
+  },
+  {
+    "objectID": "about.html#biophysical-settings-products",
+    "href": "about.html#biophysical-settings-products",
+    "title": "About this Project",
+    "section": "Biophysical Settings Products",
+    "text": "Biophysical Settings Products\nA Biophysical Setting (BpS) is a concept that represents the vegetation that may have been dominant on the landscape prior to European colonization of North America and is based on both the current biophysical environment and an approximation of the historical disturbance regime.\n\nLANDFIRE collaborated with experts around the country to create a description and model for every BpS in the US. Find BpS descriptions for your area here.\nCheck out the vegetation modeling website to learn how to integrate BpS into your work.\nRead Blankenship et al. (2021) to learn how the models and descriptions were developed."
+  },
+  {
+    "objectID": "about.html#vegetation-products",
+    "href": "about.html#vegetation-products",
+    "title": "About this Project",
+    "section": "Vegetation Products",
+    "text": "Vegetation Products\nLANDFIRE (LF) existing vegetation layers describe the following elements: Existing Vegetation Type (EVT), Existing Vegetation Canopy Cover (EVC), and Existing Vegetation Height (EVH). These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.\n\nResources\n\nExisting Vegetation Cover\nExisting Vegetation Height\nExisting Vegetation Type"
+  },
+  {
+    "objectID": "about.html#still-have-questions-landfire-is-here-to-help.",
+    "href": "about.html#still-have-questions-landfire-is-here-to-help.",
+    "title": "About this Project",
+    "section": "Still have questions? LANDFIRE is here to help.",
+    "text": "Still have questions? LANDFIRE is here to help.\nAsk the LANDFIRE Helpdesk\nSearch the LANDFIRE Helpdesk Dashboard (see what others are asking and find solutions to common problems)\nSearch (& subscribe to) the LANDFIRE YouTube Channel (see tutorials, Office Hours, quick demonstrations)"
+  },
+  {
+    "objectID": "comparing.html",
+    "href": "comparing.html",
+    "title": "Comparisons",
+    "section": "",
+    "text": "Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns.\n\nFirst, we present changes in broad ecosystem types using an interactive comparison diagram. To present these broad ecosystem trends more effectively, we combined classifications of Existing Vegetation Types (EVT) into broader categories.\nSecond, we compare amounts of succession classes (past and present) for the most prevalent ecosystems.\n\nNote: number presented when hovering equals acres."
+  },
+  {
+    "objectID": "comparing.html#comparing-past-vs.-present-conditions",
+    "href": "comparing.html#comparing-past-vs.-present-conditions",
+    "title": "Comparisons",
+    "section": "",
+    "text": "Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns.\n\nFirst, we present changes in broad ecosystem types using an interactive comparison diagram. To present these broad ecosystem trends more effectively, we combined classifications of Existing Vegetation Types (EVT) into broader categories.\nSecond, we compare amounts of succession classes (past and present) for the most prevalent ecosystems.\n\nNote: number presented when hovering equals acres."
+  },
+  {
+    "objectID": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
+    "href": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
+    "title": "Comparisons",
+    "section": "Succession classes for most dominant Biophysical Settings",
+    "text": "Succession classes for most dominant Biophysical Settings\nSome ecosystems have sizable over/under-representation of succession classes on the landscape today compared to modeled historic. For example:\n\nThere is a substantial ‘over-representation’ of succession class D in the Boreal Acid Peatland.\nLANDFIRE mapped almost total lack of succession classes A, B and C with the Boreal White Spruce-Fir-Hardwood-Inland ecosystem.\nAs is seen in most northern hardwood forests the late-closed succession class D was dominant historically, and way under-represented on the landscape today."
+  },
+  {
+    "objectID": "past.html",
+    "href": "past.html",
+    "title": "Past",
+    "section": "",
+    "text": "BpS models represent the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. These models are based on a combination of the current environment and an approximation of the historical disturbance regime. Read more.\n\nCheck out this 3-minute tutorial for a quick refresher on the basics of Biophysical Settings Models.\nUse this page as a starting point to explore the most prevalent BpSs for your analysis area. In addition to the charts and maps, the historical disturbance data can be directly accessed using this site."
+  },
+  {
+    "objectID": "past.html#most-prevalent-biophysical-settings",
+    "href": "past.html#most-prevalent-biophysical-settings",
+    "title": "Past",
+    "section": "Most prevalent Biophysical Settings",
+    "text": "Most prevalent Biophysical Settings"
+  },
+  {
+    "objectID": "past.html#historical-fire-regimes",
+    "href": "past.html#historical-fire-regimes",
+    "title": "Past",
+    "section": "Historical Fire Regimes",
+    "text": "Historical Fire Regimes"
+  },
+  {
+    "objectID": "past.html#historical-disturbances-per-ecosystem",
+    "href": "past.html#historical-disturbances-per-ecosystem",
+    "title": "Past",
+    "section": "Historical disturbances per ecosystem",
+    "text": "Historical disturbances per ecosystem\n\n\n\n\n\n\nSelect ecosystem"
+  },
+  {
+    "objectID": "past.html#data-table",
+    "href": "past.html#data-table",
+    "title": "Past",
+    "section": "Data table",
+    "text": "Data table\n\n\n\n\n\nZONE\nBPS_MODEL\nBPS_NAME\nGROUPVEG\nFRI_REPLAC\nFRI_MIXED\nFRI_SURFAC\nFRG_NEW\nACRES\nREL_PERCENT\n\n\n\n\n41\n13022_41_50_51\nLaurentian-Acadian Northern Hardwoods Forest-Hemlock\nHardwood\n2,040\n-9,999\n-9,999\nV-B\n13,498\n39.2\n\n\n41\n14072_41_50_51\nLaurentian Pine-Oak Barrens-Jack Pine\nConifer\n25\n46\n18\nI-B\n8,451\n24.6\n\n\n41\n13622_41_50\nLaurentian-Acadian Northern Pine(-Oak) Forest-Pine Dominated\nHardwood-Conifer\n230\n-9,999\n40\nI-C\n6,673\n19.4\n\n\n41\n14770_40_41_50_51\nBoreal Acidic Peatland Systems\nRiparian\n716\n-9,999\n123\nIII-B\n1,744\n5.1\n\n\n41\n14440_41_50_51\nEastern Boreal Floodplain\nHardwood\n-9,999\n581\n312\nV-A\n926\n2.7\n\n\n41\n14750_41_50_51_63_64_65_66\nLaurentian-Acadian Floodplain Systems\nRiparian\n-9,999\n435\n68\nIII-A\n794\n2.3\n\n\n41\n13100_41_62\nNorth-Central Interior Dry-Mesic Oak Forest and Woodland\nHardwood\n74\n56\n23\nI-B\n762\n2.2\n\n\n0\n0\nOpen Water\nOpen Water\n-9,999\n-9,999\n-9,999\n-9999\n442\n1.3\n\n\n41\n13651_40_41_50\nBoreal White Spruce-Fir-Hardwood Forest-Inland\nConifer\n250\n1,468\n-9,999\nV-A\n413\n1.2\n\n\n41\n14810_41_50_51_63\nLaurentian-Acadian Alkaline Conifer-Hardwood Swamp\nRiparian\n989\n-9,999\n-9,999\nV-B\n367\n1.1\n\n\n41\n14940_41_50_51\nLaurentian-Acadian Shrub-Herbaceous Wetland Systems\nRiparian\n18\n-9,999\n-9,999\nII-C\n201\n0.6\n\n\n41\n14071_41_50_51\nLaurentian Pine-Oak Barrens\nHardwood-Conifer\n109\n75\n5\nI-A\n66\n0.2\n\n\n41\n13140_38_39_40_41_42_43_44_50\nNorth-Central Interior Maple-Basswood Forest\nHardwood\n1,027\n-9,999\n857\nV-A\n47\n0.1\n\n\n41\n13652_41\nBoreal White Spruce-Fir-Hardwood Forest-Coastal\nConifer\n939\n1,147\n-9,999\nV-B\n12\n0.0\n\n\n41\n13653_41\nBoreal White Spruce-Fir-Hardwood Forest-Aspen-Birch\nConifer\n112\n243\n-9,999\nIII-A\n6\n0.0\n\n\n41\n13950_41_42_43_49_52\nNorth-Central Oak Barrens\nHardwood\n341\n246\n5\nI-A\n12\n0.0\n\n\n41\n14710_41_50\nCentral Interior and Appalachian Floodplain Systems\nRiparian\n-9,999\n432\n67\nIII-A\n1\n0.0\n\n\n41\n14790_41_42_47_48_50_51_53\nCentral Interior and Appalachian Swamp Systems\nRiparian\n987\n-9,999\n-9,999\nV-B\n6\n0.0"
+  }
+]

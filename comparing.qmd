@@ -1,0 +1,164 @@
+---
+title: "Comparisons"
+---
+
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(chorddiag)
+library(htmlwidgets)
+library(igraph)
+library(readr)
+library(tidygraph)
+library(tidyverse)
+
+```
+
+## Comparing Past vs. Present Conditions
+
+Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns.
+
+-   First, we present **changes in broad ecosystem types** using an interactive comparison diagram. To present these broad ecosystem trends more effectively, we combined classifications of Existing Vegetation Types (EVT) into broader categories. 
+
+-   Second, we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems.
+
+
+
+*Note: number presented when hovering equals acres.*
+
+```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+# read in data
+chord_df<- read_csv("data/bps2evt_chord.csv")
+#view(histFireGVchord)
+
+#convert to matrix
+matrix_df <-as.matrix(as_adjacency_matrix(as_tbl_graph(chord_df),attr = "Acres"))
+
+#clean up matrix (could be cleaner!)
+matrix_df = subset(matrix_df, select = -c(1:4))
+
+matrix_df <- matrix_df[-c(5:12),]
+
+#make a custom color pallet #eb4034 (redish) #b0af9e(grey)
+
+# ORIGINAL
+groupColors <-c( "#1d4220", 
+                 "#D55E00", 
+                 "#421012",  
+                 "#7db7c7",  
+                 "#f5e942", 
+                 "#1d4220",  
+                 "#0072B2", 
+                 "#CC79A7", 
+                 "#DDDDDD", 
+                 "#EE8866", 
+                 "#882255",
+                 "#EEDD88"
+                 
+                 
+
+)
+
+
+
+#make chord diagram
+chord<-chorddiag(data = matrix_df,
+                 type = "bipartite",
+                 groupColors = groupColors,
+                 groupnamePadding = 10,
+                 groupPadding = 3,
+                 groupnameFontsize = 11 ,
+                 showTicks = FALSE,
+                 margin=150,
+                 tooltipGroupConnector = "    &#x25B6;    ",
+                 chordedgeColor = "#363533"
+)
+chord 
+
+#save then print to have white background
+htmlwidgets::saveWidget(chord,
+                        "chord.html",
+                        background = "white",
+                        selfcontained = TRUE
+                        )
+```
+
+
+
+<iframe src="chord.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5"></iframe>
+
+<br>
+
+## Succession classes for most dominant Biophysical Settings
+
+
+Some ecosystems have sizable over/under-representation of succession classes on the landscape today compared to modeled historic. For example:
+
+* There is a substantial 'over-representation' of succession class D in the Boreal Acid Peatland.
+* LANDFIRE mapped almost total lack of succession classes A, B and C with the Boreal White Spruce-Fir-Hardwood-Inland ecosystem.
+* As is seen in most northern hardwood forests the late-closed succession class D was dominant historically, and way under-represented on the landscape today.
+
+
+```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
+
+BPS_SCLS2 <- read.csv("data/bpsScls2.csv")
+
+bps_scls_3 <- BPS_SCLS2 %>%
+  group_by(Var1) %>%
+  mutate(total.count = sum(Freq)) %>%
+  ungroup() %>%
+  dplyr::filter(bps_name %in% c("Laurentian-Acadian Northern Pine(-Oak) Forest - Pine Dominated",
+                             "Laurentian Pine-Oak Barrens - Jack Pine")) %>%
+  dplyr::select(c("bps_name", "ref_label",  "currentPercent", "ref_percent")) %>%
+  pivot_longer(
+    cols = c(`ref_percent`, `currentPercent`), 
+    names_to = "refCur", 
+    values_to = "Percent"
+    )
+
+
+
+
+# order classes
+bps_scls_3$ref_label <- factor(bps_scls_3$ref_label, levels= c(
+  "Developed",
+  "Agriculture",
+  "UE",
+  "UN",
+  "E",
+  "D",
+  "C",
+  "B",
+  "A"))
+
+
+
+
+sclasplot <-
+  ggplot(bps_scls_3, aes(fill=factor(refCur), y=Percent, x=ref_label)) + 
+  geom_col(width = 0.8, position = position_dodge()) +
+  coord_flip() +
+  facet_grid(. ~BpS) +
+  scale_x_discrete(limits = (levels(bps_scls_3$ref_label))) +
+  labs(
+    title = "Succession Classes past and present",
+    subtitle = "2 BpSs selected for illustration. Not all succession classes present in all BpSs",
+    caption = "\nData from landfire.gov.",
+    x = "",
+    y = "Percent")+
+  theme_minimal(base_size = 12)+
+  theme(plot.caption = element_text(hjust = 0, face= "italic"), #Default is hjust=1
+        plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
+        plot.caption.position =  "plot") +
+  scale_fill_manual(values = c("#3d4740", "#32a852" ), # present (grey), historical (green)
+                    name = " ", 
+                    labels = c("Present",
+                               "Past")) +
+  facet_wrap(~bps_name, nrow(3),labeller = labeller(BpS_Name = label_wrap_gen())) +
+    theme(panel.spacing = unit(.05, "lines"),
+        panel.border = element_rect(color = "black", fill = NA, size = 1), 
+        strip.background = element_rect(color = "black", size = 1))
+
+sclasplot
+
+```
+
+

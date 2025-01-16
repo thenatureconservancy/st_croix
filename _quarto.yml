@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    watch-inputs: false
+
+website:
+  title: "LANDFIRE-Powered Landscape Assessment"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: past.qmd
+        text: Past
+      - href: present.qmd
+        text: Present
+      - href: comparing.qmd
+        text: Comparing
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: source
+
